@@ -4,45 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfolio</title>
-
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
 </head>
 
 <body>
     <div class="wrapper">
-        <div class="header">
+        <header class="Myheader">
             <div id="yourNameTag">
                 JoAnn Ireland
             </div>
-            <div id="Links">
+            <nav id="Links">
                 <a href="index.html">About</a>
                 <a href="portfolio.html">Portfolio</a>
                 <a href="contact.html">Contact</a>
-            </div>
-
-        </div>
+            </nav>
+        </header>
         <div class="container">
             <div class="Content">
                 <h2>Portfolio</h2>
-                <img src="assets/images/Hangman.jpg" alt="Image Not Found" />
-                <img src="assets/images/Star_Wars_RPG.jpg" alt="Image Not Found" />
-                <img src="assets/images/trivia.jpg" alt="Image Not Found" />
-                <img src="assets/images/rutgerssinfowidget.jpg" alt="Image Not Found" />
-                <img src="assets/images/RoPaSc Logo.jpg" alt="Image Not Found" />
 
-                
-                
+                <div id="imgContainerLeft" class="clearfix">
+                    <img src="assets/images/Hangman.jpg" width="300" height="200" alt="Image Not Found" />
+                    <div class="GameTag">Hangman</div>
+                </div>
+
+                <div id="imgContainerRight" class="clearfix">
+                    <img src="assets/images/rpg.jpg" width="300" height="200" alt="Image Not Found" />
+                    <div class="GameTag">RPG Game</div>
+                </div>
+
+                <div id="imgContainerLeft" class="clearfix">
+                    <img id="left" src="assets/images/trivia.jpg" width="300" height="200" alt="Image Not Found" />
+                    <div class="GameTag">Trivia Game</div>
+                </div>
+
+                <div id="imgContainerRight" class="clearfix">
+                    <img src="assets/images/rutgerssinfowidget.jpg" width="300" height="200" alt="Image Not Found" />
+                    <div class="GameTag">Rutgers Info Widget</div>
+               </div>
+               <div id="imgContainerLeft" class="clearfix">
+                    <img  src="assets/images/rps.png" width="300" height="200" alt="Image Not Found" />
+                    <div class="GameTag">Rock Paper Scissors</div>
+                </div>
             </div>
 
-
-
         </div>
-        <div class="bottom">
-
-            <footer>Copyright</footer>
-
-        </div>
+        <footer>Copyright&copy</footer>
     </div>
 
 </body>

@@ -9,8 +9,6 @@ body {
     line-height: 20px;
 }
 
-
-
 /* Style the container/contact/bottom section */
 .wrapper {
     margin: 5px auto;
@@ -25,15 +23,14 @@ body {
     padding:0px 0px 0px 0px;
     box-sizing: header;
     
-    background-color: white;
+    background-color: #ffffff;
     width: 680px;
-    height: 40px;
+    height: 64px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
 
-    
-
 }
+
 #yourNameTag {
     background: #4aaaa5;
     color: white;
@@ -42,75 +39,39 @@ body {
     font-size: 24px;
     float: left;
     text-align: center;
-    height: 40px;
-    width: 300px;
+    height: 64px;
+    width: auto;
+    padding: 19px 5px;
 
 }
 
-#imgContainerLeft {
-    float: left;
-    position: relative;
-    width: 300px;
-    height: 200px;
-   
-    
-    
-
-}
-
-#imgContainerRight{
-    float: right;
-    position: relative;
-    width: 300px;
-    height: 200px;
-   
-    
-    
-
-}
-
-.GameTag {
-    position: absolute;
-    background: #4aaaa5;
-    top: 150px;
-    left:0;
-   
-    color: white;
-      
-    font-size: 12px;
-    
-    
-    text-align: center;
-    height: 40px;
-    width: 300px
- 
-}
 
 
-#Links {
+#Links ul li {
     float: right;
     font-size: 12px;
     height: 40px;
- 
     text-decoration: none;
+    padding-top: 19px;
+    display: inline;
 }
+
 
 nav a {
     color: grey;
     padding: 5px 15px;
     border-right: 2px solid rgb(211, 207, 207);
     text-decoration: none;
-
 }
 
 .container {
     top: 0px;
     background-image: url("../images/leaves-pattern.png");
-    
+   
     margin: 0px;
     height: 700px;
     margin:0px;
-    border-top: 3px solid grey;
+    border-top: 3px solid #cccccc;
     padding:0px;
 
  
@@ -120,18 +81,14 @@ nav a {
     position: relative;
     left: 140px;
     top: 20px;
-    padding-left: 20px;
-    padding-right:20px;
+    padding: 0px 20px 20px 20px;
     
-    background-color: white;
+    background-color: #ffffff;
     text-align: left;
     color: #333;
     width: 680px;
-    height: auto;
+    height: 670px;
  
-}
-#AboutMe {
-    float: right;
 }
 
 h2 {
@@ -147,6 +104,16 @@ h2 {
     font-weight: bold;
 
 }
+
+#AboutMe {
+    float: right;
+}
+
+p { 
+    display: inline;
+}
+
+
 
 /* Style inputs for contact */
 input[type=text], select, textarea {
@@ -166,32 +133,75 @@ input[type=submit] {
     cursor: pointer;
 }
 
+/* Portfolio items */
 
+.imgContainerLeft {
+    float: left;
+    position: relative;
+    width: 300px;
+    height: 200px; 
+   
 
-
-
-p { 
-    display: inline;
 }
 
+.imgContainerRight{
+    float: right;
+    position: relative;
+    width: 300px;
+    height: 200px; 
+   
 
+}
+
+h4 {
+    position: absolute;
+    background: #4aaaa5;
+    bottom: 15px;
+   
+    color: white;
+    padding: 15px 0; 
+    
+    text-align: center;
+    height: 40px;
+    width: 300px;
+ 
+}
+
+#item1 {
+	background-image: url("../images/Hangman.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#item2 {
+	background-image: url("../images/rpg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#item3 {
+	background-image: url("../images/trivia.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#item4 {
+	background-image: url("../images/rutgerssinfowidget.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#item5 {
+	background-image: url("../images/rps.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 
 footer {
-    border-top: 8px;
+    border-top: 5px;
     border-color:#4aaaa5;
     border-top-style: solid;
     background-color: #666666;
+    padding: 8px 0 0 0;
     text-align:  center;
     font-size: 10px;
     color: white;
     height: 40px;
 
-}
-
-.clearfix::after {
-    visibility: hidden;
-    display: block;
-    content: " ";
-    clear: both;
-    height: 0;
 }

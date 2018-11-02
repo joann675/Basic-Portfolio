@@ -34,8 +34,6 @@ body {
 #yourNameTag {
     background: #4aaaa5;
     color: white;
-    display: inline-block;
-    
     font-size: 24px;
     float: left;
     text-align: center;
@@ -53,7 +51,7 @@ body {
     height: 40px;
     text-decoration: none;
     padding-top: 19px;
-    display: inline;
+   
 }
 
 
@@ -82,13 +80,16 @@ nav a {
     left: 140px;
     top: 20px;
     padding: 0px 20px 20px 20px;
-    
+    border:2px solid #dddddd;
     background-color: #ffffff;
     text-align: left;
     color: #333;
     width: 680px;
-    height: 670px;
+    height: auto;
  
+}
+#portfolioContent {
+    height:650px;
 }
 
 h2 {
@@ -133,22 +134,28 @@ input[type=submit] {
     cursor: pointer;
 }
 
-/* Portfolio items */
+
 
 .imgContainerLeft {
     float: left;
     position: relative;
-    width: 300px;
-    height: 200px; 
-   
+    width: 200px;
+    height: 150px; 
+    border: 2px solid #cccccc;
+    margin: 10px 0 10px 0;
+    display: block;
 
 }
 
 .imgContainerRight{
-    float: right;
+
     position: relative;
-    width: 300px;
-    height: 200px; 
+    left: 220px;
+    width: 200px;
+    height: 150px; 
+    border: 2px solid #cccccc;
+    margin: 10px 0 10px 0;
+    display: block;
    
 
 }
@@ -156,14 +163,14 @@ input[type=submit] {
 h4 {
     position: absolute;
     background: #4aaaa5;
-    bottom: 15px;
+    bottom: 5px;
    
     color: white;
-    padding: 15px 0; 
+    padding: 10px 0; 
     
     text-align: center;
     height: 40px;
-    width: 300px;
+    width: 196px;
  
 }
 
